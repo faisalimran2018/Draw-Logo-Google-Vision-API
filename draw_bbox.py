@@ -89,6 +89,7 @@ if __name__ == "__main__":
     frame_width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fps = int(video.get(cv2.CAP_PROP_FPS))
+    
     result_video_fps = video.get(cv2.CAP_PROP_FPS)
     print(result_video_fps)
 
